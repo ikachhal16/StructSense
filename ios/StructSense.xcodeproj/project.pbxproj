@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABC1DBDAD3C997DD78EC84B /* AcousticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC60A3C691878931BA9AF3 /* AcousticViewModel.swift */; };
+		0F10BE853CC8AD612DB84C04 /* StructSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94D59F1C8A9CB2BDDDBB0A /* StructSenseApp.swift */; };
+		0FFC8773D2A2184DAD1D62F3 /* RollingStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99654EC7CD7E7273053B2583 /* RollingStatistics.swift */; };
+		388DB44D7E690DABA4848AFC /* AcousticTriageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7957A526C4884355DA99217 /* AcousticTriageService.swift */; };
+		39E91C40E41FC8285E9D9BE4 /* MagnetometerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238DDB92921FAC58F5832172 /* MagnetometerService.swift */; };
+		470CD25693A561EC1FF1470E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F6BA5B72FE769491D7A80 /* HomeView.swift */; };
+		5EE885EF653E51839CC06255 /* TriageSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61024DC1DF632A0BA21EF46C /* TriageSession.swift */; };
+		61745C97F13E5E1B8CB24866 /* AcousticTriageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77600333A9958F8447BB827D /* AcousticTriageView.swift */; };
+		67FA86BA66DBBCE30D3624CA /* MagnetometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CF594354794C9580BD57C /* MagnetometerView.swift */; };
+		6BE524FEDBF8EA18FB5D1741 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD015EFF261ACC8F0E21C0F /* RootView.swift */; };
+		6CC4ECEF9774778A4053658B /* PuckScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277F9EEC92098BFA6D99E95 /* PuckScannerService.swift */; };
+		826D3B9206839710DAD21749 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3E019F2D8A3BF3A9C97436 /* ReportView.swift */; };
+		9AA3F523C2EDDA6B9C30B4FB /* PuckScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0AD85D3DF823B45908E66 /* PuckScannerView.swift */; };
+		CB479415CF83E9BC343A7614 /* TriageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF887D7C141C37F8F86A148E /* TriageModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B0AD85D3DF823B45908E66 /* PuckScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuckScannerView.swift; sourceTree = "<group>"; };
+		1FD015EFF261ACC8F0E21C0F /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		238DDB92921FAC58F5832172 /* MagnetometerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerService.swift; sourceTree = "<group>"; };
+		5F3F6BA5B72FE769491D7A80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		61024DC1DF632A0BA21EF46C /* TriageSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageSession.swift; sourceTree = "<group>"; };
+		651483BB29896FA7907D5851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6C3E019F2D8A3BF3A9C97436 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		77600333A9958F8447BB827D /* AcousticTriageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcousticTriageView.swift; sourceTree = "<group>"; };
+		99654EC7CD7E7273053B2583 /* RollingStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingStatistics.swift; sourceTree = "<group>"; };
+		AF887D7C141C37F8F86A148E /* TriageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriageModels.swift; sourceTree = "<group>"; };
+		C4AC60A3C691878931BA9AF3 /* AcousticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcousticViewModel.swift; sourceTree = "<group>"; };
+		C565172F63FA37EB12DF1991 /* StructSense.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = StructSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E277F9EEC92098BFA6D99E95 /* PuckScannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuckScannerService.swift; sourceTree = "<group>"; };
+		E7957A526C4884355DA99217 /* AcousticTriageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcousticTriageService.swift; sourceTree = "<group>"; };
+		EC94D59F1C8A9CB2BDDDBB0A /* StructSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructSenseApp.swift; sourceTree = "<group>"; };
+		F36CF594354794C9580BD57C /* MagnetometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetometerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3DC997BB51ED61DB589565A9 /* StructSense */ = {
+			isa = PBXGroup;
+			children = (
+				651483BB29896FA7907D5851 /* Info.plist */,
+				EC94D59F1C8A9CB2BDDDBB0A /* StructSenseApp.swift */,
+				CA8C6BF68F17E271F34B5B0D /* Models */,
+				49A53BB89889B8F283244EF8 /* Services */,
+				CCD174B6671DD507D05BDF72 /* Utilities */,
+				65AD15A9FE481700552BF211 /* ViewModels */,
+				D056C6CC3CE9AAC3764DE7B0 /* Views */,
+			);
+			path = StructSense;
+			sourceTree = "<group>";
+		};
+		49A53BB89889B8F283244EF8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7957A526C4884355DA99217 /* AcousticTriageService.swift */,
+				238DDB92921FAC58F5832172 /* MagnetometerService.swift */,
+				E277F9EEC92098BFA6D99E95 /* PuckScannerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		58D95FC6CC978D1687F21385 = {
+			isa = PBXGroup;
+			children = (
+				3DC997BB51ED61DB589565A9 /* StructSense */,
+				BED88C927E232250776D962D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AD15A9FE481700552BF211 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC60A3C691878931BA9AF3 /* AcousticViewModel.swift */,
+				61024DC1DF632A0BA21EF46C /* TriageSession.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BED88C927E232250776D962D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C565172F63FA37EB12DF1991 /* StructSense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8C6BF68F17E271F34B5B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF887D7C141C37F8F86A148E /* TriageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCD174B6671DD507D05BDF72 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				99654EC7CD7E7273053B2583 /* RollingStatistics.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D056C6CC3CE9AAC3764DE7B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77600333A9958F8447BB827D /* AcousticTriageView.swift */,
+				5F3F6BA5B72FE769491D7A80 /* HomeView.swift */,
+				F36CF594354794C9580BD57C /* MagnetometerView.swift */,
+				13B0AD85D3DF823B45908E66 /* PuckScannerView.swift */,
+				6C3E019F2D8A3BF3A9C97436 /* ReportView.swift */,
+				1FD015EFF261ACC8F0E21C0F /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C0C7E44E0D2A23F5AABD027 /* StructSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0BAD8449045096FE3AF7E4 /* Build configuration list for PBXNativeTarget "StructSense" */;
+			buildPhases = (
+				614E961C71976DB38EDCDFE0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StructSense;
+			packageProductDependencies = (
+			);
+			productName = StructSense;
+			productReference = C565172F63FA37EB12DF1991 /* StructSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		697CF030B2D39BD22AEF0C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 21EF624485464B44DC4D50FE /* Build configuration list for PBXProject "StructSense" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 58D95FC6CC978D1687F21385;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BED88C927E232250776D962D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C0C7E44E0D2A23F5AABD027 /* StructSense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614E961C71976DB38EDCDFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388DB44D7E690DABA4848AFC /* AcousticTriageService.swift in Sources */,
+				61745C97F13E5E1B8CB24866 /* AcousticTriageView.swift in Sources */,
+				0ABC1DBDAD3C997DD78EC84B /* AcousticViewModel.swift in Sources */,
+				470CD25693A561EC1FF1470E /* HomeView.swift in Sources */,
+				39E91C40E41FC8285E9D9BE4 /* MagnetometerService.swift in Sources */,
+				67FA86BA66DBBCE30D3624CA /* MagnetometerView.swift in Sources */,
+				6CC4ECEF9774778A4053658B /* PuckScannerService.swift in Sources */,
+				9AA3F523C2EDDA6B9C30B4FB /* PuckScannerView.swift in Sources */,
+				826D3B9206839710DAD21749 /* ReportView.swift in Sources */,
+				0FFC8773D2A2184DAD1D62F3 /* RollingStatistics.swift in Sources */,
+				6BE524FEDBF8EA18FB5D1741 /* RootView.swift in Sources */,
+				0F10BE853CC8AD612DB84C04 /* StructSenseApp.swift in Sources */,
+				CB479415CF83E9BC343A7614 /* TriageModels.swift in Sources */,
+				5EE885EF653E51839CC06255 /* TriageSession.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34B5E9646B1DE91CDB2C9168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		6B0FD47E16030F24933C56A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StructSense/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.structsense.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C854016E6F554B71146A8A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		EB5FF74C49F2C23F420DE5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StructSense/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.structsense.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EF624485464B44DC4D50FE /* Build configuration list for PBXProject "StructSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C854016E6F554B71146A8A1 /* Debug */,
+				34B5E9646B1DE91CDB2C9168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B0BAD8449045096FE3AF7E4 /* Build configuration list for PBXNativeTarget "StructSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB5FF74C49F2C23F420DE5EE /* Debug */,
+				6B0FD47E16030F24933C56A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 697CF030B2D39BD22AEF0C99 /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>StructSense</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>StructSense scans for Bluetooth humidity and temperature sensor pucks so you can watch moisture in a crawlspace or closed room.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>StructSense plays a low-frequency tone through the speaker and listens with the microphone to compare how a suspect wall section absorbs sound against a dry reference spot. Audio is processed on the device and never stored or uploaded.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>StructSense reads the magnetometer to flag metal studs, pipes and fasteners behind a wall while you sweep the phone across it.</string>
+	<key>UIBackgroundModes</key>
+	<array/>
+	<key>UILaunchScreen</key>
+	<dict/>
+</dict>
+</plist>

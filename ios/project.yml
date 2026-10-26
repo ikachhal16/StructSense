@@ -1,0 +1,35 @@
+name: StructSense
+options:
+  bundleIdPrefix: app.structsense
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  StructSense:
+    type: application
+    platform: iOS
+    sources:
+      - path: StructSense
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.structsense.ios
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        ENABLE_PREVIEWS: YES
+    info:
+      path: StructSense/Info.plist
+      properties:
+        CFBundleDisplayName: StructSense
+        UILaunchScreen: {}
+        NSMicrophoneUsageDescription: StructSense plays a low-frequency tone through the speaker and listens with the microphone to compare how a suspect wall section absorbs sound against a dry reference spot. Audio is processed on the device and never stored or uploaded.
+        NSBluetoothAlwaysUsageDescription: StructSense scans for Bluetooth humidity and temperature sensor pucks so you can watch moisture in a crawlspace or closed room.
+        NSMotionUsageDescription: StructSense reads the magnetometer to flag metal studs, pipes and fasteners behind a wall while you sweep the phone across it.
+        UIBackgroundModes: []
+        ITSAppUsesNonExemptEncryption: false
